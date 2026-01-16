@@ -10,7 +10,7 @@
 
 ### **卫星过境智能预报**
 
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/c23149b2-e694-426b-9064-875a51abae98" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/c23149b2-e694-426b-9064-875a51abae98" />
 
 告别繁琐的手动反复查询与复杂的参数计算。在 SpaceMV-ScAI，用户只需完成一次“任务订阅”——告诉智能体关注的目标。随后，Agent 便会在后台进行持续的轨道演算与匹配。一旦捕捉到满足用户个性化需求的绝佳窗口，系统将主动推送精准的时间表与方位信息。无论是建立关键通信链路，还是进行科研观测，SpaceMV-ScAI都能即时响应，提前锁定最佳时机。
 
