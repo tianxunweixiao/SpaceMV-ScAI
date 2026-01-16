@@ -60,22 +60,33 @@
 ### **业务架构**
 
 <div align="center">
-  <img width="100%" alt="image" src="https://github.com/user-attachments/assets/74a34973-c34b-4d5f-8880-43a341d297d4" />
+  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/74a34973-c34b-4d5f-8880-43a341d297d4" />
 </div>
 
 为了支撑“让数据说话”的愿景，SpaceMV-ScAI 采用了高度模块化的四层业务架构，确保系统既拥有处理海量数据的吞吐能力，又具备Agent 灵活调度的智能特性：
 
 ● 数据源与感知层
+
 ScAI 实时同步CelesTrak 等开源权威数据，同时将用户的自然语言指令（NLP）作为核心输入，让“对话”成为系统感知业务意图的第一步。
+
 ● 平台服务层
+
 Agent 智能体内核：负责任务拆解与自主决策，是系统的灵魂。
+
 航天数据中台：基于ClickHouse 清洗与存储海量TLE 数据。
+
 双引擎驱动：集成SGP4/SDP4 高精度解算引擎与Cesium 时空可视化引擎，确保算得准、看得清。
+
 ● 应用层
+
 智慧监测预警：从过境预报到寿命监测，防患于未然。
+
 时空态势分析：全球覆盖仿真与构型解算，洞察宏观布局。
+
 数据智能洞察：Text-to-SQL 交互与自动化图表，让数据分析零门槛。
+
 ● 展现层
+
 除了提供开箱即用的Web 业务工作台，我们特别强调开放性。通过API 数据接口与开源社区协作平台，SpaceMV-ScAI不仅仅是一个工具，更是一个开发者共同参与的开源生态。
 
 ### **技术架构**
